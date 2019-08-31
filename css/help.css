@@ -1,0 +1,426 @@
+/*
+* @Author: hp
+* @Date:   2019-08-23 08:26:15
+* @Last Modified by:   hp
+* @Last Modified time: 2019-08-26 19:03:08
+*/
+section{
+	background-color: #f9f9f9;
+}
+.help{
+	margin-top: 20px;
+	position: relative;
+}
+.help-app{
+	position: absolute;
+	top: -20px;
+	right: -80px;
+}
+.help::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.helpfot{
+	background-color: #fff;
+}
+.help-logo{
+	background-color: #fff;
+	width: 198px;
+	float: left;
+	border: 1px solid #ebebeb;
+}
+.h-log{
+	display: block;
+    height: 78px;
+    margin-bottom: 8px;
+    
+    background: url('../images/help-icon.gif') no-repeat;
+}
+.help-logo ul{
+	list-style: none;
+}
+.help-logo ul li{
+	padding: 15px 0px 15px 20px;
+	border-width: 1px;
+    border-style: none none solid none;
+    border-color: #ebebeb;
+}
+.help-logo h3{
+	font-size: 16px;
+	padding-left: 22px;
+	background: url('../images/help03.gif') no-repeat 0;
+}
+.help-logo h3 a{
+	font-size: 18px;
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+}
+.help-logo dl{
+	padding-left: 22px;
+}
+.help-logo dd{
+	margin-top: 10px;
+}
+.help-logo dd a{
+    background: url('../images/help01.gif') no-repeat 0 5px;
+    padding-left: 22px;
+    font-size: 14px;
+    color: #666666;
+}
+
+
+
+
+.help-right{
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	width: 998px;
+	float: right;
+	border: 1px solid #ebebeb;
+}
+.help_ans {
+    padding: 40px 30px 70px 30px;
+}
+.help-home{
+	font-family: 宋体;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 35px;
+}
+.home-top{
+	margin-bottom: 35px;
+	width: 938px;
+	height: 40px;
+	
+} 
+.search_box{
+	display: inline;
+	float: left;
+}
+.search_box .txt{
+	width: 586px;
+    height: 38px;
+    line-height: 38px;
+    background: #f9f9f9;
+    border: 1px solid #ff464e;
+    border-radius: 5px 0 0 5px;
+    color: #999;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.search_box .sub{
+    width: 100px;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    background: #ff464e;
+    border: 1px solid #ff464e;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+.home-top span{
+	display: block;
+	float: right;
+	margin-top: 15px;
+	margin-right: 50px;
+	color: #5e5e5e;
+	font-size: 12px;
+}
+.home-top a{
+    color: #5e5e5e;
+    text-decoration: none;
+	font-size: 12px;
+
+}
+.home-top a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.help-home h1{
+	padding-left: 10px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #ebebeb;
+}
+.h-service{
+	padding: 10px 10px 0 10px;
+    color: #333;
+}
+.h-service ul{
+	list-style: none;
+	overflow: hidden;
+}
+.h-service ul li{
+	float: left;
+	margin-right: 60px;
+	margin-bottom: 35px;
+	margin-left: 10px;
+}
+.h-service i{
+	display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 10px;
+    cursor: pointer;
+    background-image: url('../images/help_ico01.gif');
+    background-repeat: no-repeat;
+}
+.h-service span{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+}
+.h-service .i1{
+	background-position: 0px 0px;
+}
+.h-service .i1:hover{
+	background-position: 0px -252px;
+}
+.h-service .i2{
+	background-position: -82px 0px;
+}
+.h-service .i2:hover{
+	background-position: -82px -252px;
+}
+.h-service .i3{
+	background-position: -164px 0px;
+}
+.h-service .i3:hover{
+	background-position: -164px -252px;
+}
+.h-service .i4{
+	background-position: -246px 0px;
+}
+.h-service .i4:hover{
+	background-position: -246px -252px;
+}
+.h-service .i5{
+	background-position: -328px 0px;
+}
+.h-service .i5:hover{
+	background-position: -328px -252px;
+}
+.h-service .i6{
+	background-position: -422px 0px;
+}
+.h-service .i6:hover{
+	background-position: -422px -252px;
+}
+.h-service .i7{
+	background-position: 0px -81px;
+}
+.h-service .i7:hover{
+	background-position: 0px -339px;
+}
+.h-service .i8{
+	background-position: -80px -81px;
+}
+.h-service .i8:hover{
+	background-position: -80px -339px;
+}
+.h-service .i9{
+	background-position: -165px -81px;
+}
+.h-service .i9:hover{
+	background-position: -165px -339px;
+}
+.h-service .i10{
+	background-position: -247px -81px;
+}
+.h-service .i10:hover{
+	background-position: -247px -339px;
+}
+.h-service .i11{
+	background-position: -327px -81px;
+}
+.h-service .i11:hover{
+	background-position: -327px -339px;
+}
+
+
+.hot ul{
+	overflow: hidden;
+	width: 918px;
+}
+.hot ul li{
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.hot ul li a{
+	display: block;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #e5e5e5;
+    border-bottom: 1px solid #fff;
+}
+.hot ul li .active{
+	position: relative;
+	z-index: 2;
+    color: #333;
+    background-color: #fff;
+    font-weight: 700;
+    border: 1px solid #ff464e;
+    border-bottom: 1px solid #fff;
+}
+/* .active::before{
+	content: '';
+	width: 100px;
+	height: 1px;
+	border: 1px solid red;
+}
+.active::after{
+	content: '';
+	width: 100px;
+	height: 1px;
+	border: 1px solid red;
+} */
+hr{
+	position: relative;
+	top: -1px;
+	border: 0.5px solid red;
+}
+.hot-ans{
+	padding: 30px 10px 40px 10px;
+    height: 100px;
+    overflow: hidden;
+}
+.hot-ans ul li{
+	background-color: #fff;
+	margin-right: 139px;
+	float: left;
+    width: 300px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #666;
+}
+.hot-ans ul li a{
+	border: 0px;
+}
+.hot-ans i{
+	float: left;
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    background: url('../images/right_icos01.png') no-repeat;
+    margin: 10px 8px 0 0;
+}
+.hot-ans span{
+	width: 200px;
+	text-align: left;
+}
+
+
+
+
+
+
+.study ul li{
+	float: left;
+	margin-right: 15px;
+}
+.study ul li a{
+	float: left;
+	width: 70px;
+	display: inline;
+}
+.study span{
+	font-size: 14px;
+	text-align: center;color: #666;
+	display: block;
+}
+.study i{
+	width: 70px;
+	height: 70px;
+	margin: 0px auto 10px;
+	display: block;
+	background: url('../images/help_ico01.gif') no-repeat;
+
+}
+.study em{
+	font-style: normal;
+	width: 15px;
+	height: 20px;
+	display: inline-block;
+	float: left;
+	background: url('../images/right_icos02.png') no-repeat;
+	margin: 25px 0px 0px 20px;
+}
+.study .stu1{
+	background-position: -423px -80px;
+}
+.study .stu1:hover{
+	background-position: -423px -339px;
+}
+.study .stu2{
+	background-position: -0px -169px;
+}
+.study .stu2:hover{
+	background-position: -2px -431px;
+}
+.study .stu3{
+	background-position: -81px -169px;
+}
+.study .stu3:hover{
+	background-position: -81px -431px;
+}
+.study .stu4{
+	background-position: -166px -169px;
+}
+.study .stu4:hover{
+	background-position: -166px -431px;
+}
+.study .stu5{
+	background-position: -246px -169px;
+}
+.study .stu5:hover{
+	background-position: -246px -431px;
+}
+.study .stu6{
+	background-position: -329px -169px;
+}
+.study .stu6:hover{
+	background-position: -329px -431px;
+}
+.study .stu7{
+	background-position: -422px -169px;
+}
+.study .stu7:hover{
+	background-position: -422px -431px;
+}
+
+.btom{
+	width: 447px;
+	border: 1px solid #ccc;
+}
+.inline h3{
+    padding-top: 10px;
+    line-height: 34px;
+    margin: 0px 20px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.btom p{
+	text-align: center;
+	margin: 15px 0px;
+	color: #333;
+}
+.btom .sub{
+	display: block;
+	width: 128px;
+	height: 38px;
+	line-height: 38px;
+	margin: 30px auto;
+	background: #ff464e;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+}

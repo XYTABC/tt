@@ -1,0 +1,266 @@
+.soon{
+	background-color: #f6f6f6;
+	padding-top: 20px;
+	padding-bottom: 1px;
+}
+.soon-cont{
+	background-color: #fff;
+	position: relative;
+}
+.jp-app{
+	position: absolute;
+	top: -20px;
+	right: -80px;
+}
+.sonn-nav{
+	padding: 10px 0px;
+	text-align: center;
+}
+.soon-line{
+	text-align: center;
+	position: relative;
+	width: auto;
+	margin: 20px 0 50px;
+	height: 30px;
+}
+.line-txt{
+	position: absolute;
+	left: 50%;
+	margin-left: -120px;
+	width: 240px;
+}
+.soon-line::before,.soon-line::after{
+	content: '';
+	position: absolute;
+	top: 16px;
+	display: inline-block;
+	width: 470px;
+	height: 1px;
+	background-color: #d4d4d4;
+}
+.soon-line::before{
+	left: 10px;
+}
+.soon-line::after{
+	right: 10px;
+}
+.line-txt span{
+	background-color: #f6f6f6;
+	display: block;
+	width: 210px;
+	line-height: 30px;
+	border: #d4d4d4 solid 1px;
+	border-radius: 20px;
+	color: #666;
+	margin-left: 15px;
+	font-size: 14px;
+}
+.line-txt em{
+	display: inline-block;
+	width: 9px;
+	height: 5px;
+	margin: 0 10px;
+	vertical-align: 3px;
+	background-image: url('../images/line-cur.gif');
+}
+.soon-ul ul{
+	list-style: none;
+	overflow: hidden;
+	padding-left: 14px;
+}
+.soon-ul ul li{
+	float: left;
+	margin: 0px 6px 12px 0px;
+	box-sizing: border-box;
+	padding-top: 6px;
+	border: 1px solid transparent;
+	width: 230px;
+	position: relative;
+}
+.soon-img{
+	padding-left: 4px;
+	position: relative;
+}
+.code{
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	top: 4px;
+	left: 4px;
+	background-color: rgba(0,0,0,0.5);
+	cursor: pointer;
+	display: none;
+}
+.juan-code{
+	width: 200px;
+	border-bottom: 1px dashed #ccc;
+	margin: 10px;
+	position: relative;
+}
+.juan-code img{
+	display: block;
+	margin: 50px auto 10px;
+	width: 90px;
+	height: 90px;
+	border-radius: 6px;
+}
+.juan-code a{
+	display: block;
+	width: 26px;
+    height: 26px;
+    border: 1px solid #f4f4f4;
+    background: #f4f4f4;
+    border-radius: 15px;
+    position: absolute;
+    top: -40px;
+    right: 4px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+}
+.juan-code a i{
+	display: inline-block;
+	width: 14px;
+	height: 12px;
+	background: url('../images/my-like.png') no-repeat 0px 1px;
+}
+.juan-code a:hover i{
+	background-position: 0px -71px;
+}
+.code-xia{
+	width: 200px;
+	margin: 10px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.5);
+	position: relative;
+}
+.code-xia i{
+	width: 21px;
+	height: 30px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 20px;
+	background: url('../images/list-total.png') no-repeat -180px -214px;
+}
+.code-xia span{
+	position: absolute;
+	left: 55px;
+	color: #fff;
+}
+.code-xia span:nth-of-type(1){
+	top: 5px;
+}
+.code-xia span:nth-of-type(2){
+	top: 25px;
+}
+.soon-img img{
+	width: 220px;
+	height: 220px;
+}
+.price{
+	padding:0px 10px 0px 8px;
+	float: left;
+	position: relative; 
+	height: 32px;
+	line-height: 36px;
+	width: 210px;
+}
+.price span:nth-of-type(1){
+	font-size: 18px;
+	color: #008800;
+}
+.price span:nth-of-type(2){
+	font-size: 14px;
+	color: #bbb;
+}
+.price span:nth-of-type(3){
+    width: 68px;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    font-size: 12px;
+    background: #84C251;
+    text-align: center;
+    border-radius: 2px;
+    margin-right: -2px;
+    float: right;
+    margin-top: 6px;
+}
+.soon-ul ul h3{
+	width: 220px;
+	line-height: 18px;
+	height: 18px;
+	overflow: hidden;
+    padding: 0 10px 0 10px;
+    color: #333;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+ul h3 a{
+	color: #333;
+	font: 12px/1.5 "微软雅黑";
+	display: inline-block;
+	font-style: normal;
+}
+ul h3 a:nth-of-type(1){
+	float: left;
+}
+ul h3 a:nth-of-type(2){
+	float: right;
+	color: #bbb;
+}
+.tom-btns{
+	margin: 50px auto 30px;
+    width: 900px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.tom-btns a{
+    color: #333;
+    border: #ff464e solid 1px;
+    height: 58px;
+    padding: 0 35px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 58px;
+    border-radius: 3px;
+    float: left;
+    display: inline;
+}
+.tom-btns::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.tom-btns>span{
+	float: left;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin: 14px 20px 0px;
+	background: url('../images/icon-total01.png') no-repeat -0px -217px;
+}
+.tom-btns>div{
+	width: 120px;
+	height: 120px;
+	float: right;
+	background: url('../images/app-code-juan.png') no-repeat;
+	position: absolute;
+	top: -30px;
+	right: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+.tom-btns a:nth-of-type(1) span{
+	color: #39c;
+	text-decoration: underline;
+}
+.tom-btns a:nth-of-type(2){
+	background-color: #ff464e;
+	color: #fff;
+}
+.tom-btns a:nth-of-type(2) span{
+	color: #ff9;
+	text-decoration: underline;
+}
